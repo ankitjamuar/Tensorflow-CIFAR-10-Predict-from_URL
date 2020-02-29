@@ -1,7 +1,7 @@
 Teained Tensorflow on CIFAR-10 and code for predicting image from URL by resizing automaticaaly
 
 
-
+<code>
 # Predict from url 
 import cv2
 import urllib.request
@@ -15,3 +15,4 @@ index =  np.argmax( prediction )
 print( classes[index] )
 print( prediction[index] )
 plt.imshow(resized_image)
+  </code>
